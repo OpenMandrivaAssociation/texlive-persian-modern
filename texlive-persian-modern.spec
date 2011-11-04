@@ -1,3 +1,9 @@
+# revision 23959
+# category Package
+# catalog-ctan /fonts/persian-modern
+# catalog-date 2011-09-14 17:59:09 +0200
+# catalog-license ofl
+# catalog-version 0.3
 Name:		texlive-persian-modern
 Version:	0.3
 Release:	1
@@ -68,6 +74,7 @@ ParsiLaTeX forum.
 %doc %{_texmfdistdir}/source/fonts/persian-modern/persian-modern-outline.sfd
 %doc %{_texmfdistdir}/source/fonts/persian-modern/persian-modern-regular.sfd
 %doc %{_texmfdistdir}/source/fonts/persian-modern/persian-modern-shadow.sfd
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -78,3 +85,5 @@ ParsiLaTeX forum.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
