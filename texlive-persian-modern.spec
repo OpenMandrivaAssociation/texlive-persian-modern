@@ -6,7 +6,7 @@
 # catalog-version 0.3
 Name:		texlive-persian-modern
 Version:	0.3
-Release:	1
+Release:	2
 Summary:	The "Persian Modern" family of fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/persian-modern
