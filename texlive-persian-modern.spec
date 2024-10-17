@@ -9,7 +9,7 @@ Version:	0.4
 Release:	11
 Summary:	The "Persian Modern" family of fonts
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/persian/persian-modern
+URL:		https://www.ctan.org/tex-archive/fonts/persian/persian-modern
 License:	OFL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/persian-modern.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/persian-modern.doc.tar.xz
